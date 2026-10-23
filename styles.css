@@ -1122,8 +1122,8 @@ button:focus-visible { outline: 2px solid #fff; outline-offset: 3px; }
 .instagram-post-viewer-header { min-height: 52px; flex: 0 0 auto; display: flex; align-items: center; gap: 10px; padding: 0 12px; border-bottom: 1px solid #eee; font-size: 13px; }
 .instagram-post-viewer-close { width: 34px; height: 38px; border: 0; background: transparent; color: #17171a; font-size: 30px; line-height: 1; cursor: pointer; }
 .instagram-post-viewer-avatar { width: 31px; height: 31px; font-size: 10px; }
-.instagram-post-viewer-media { position: relative; min-height: 120px; flex: 1 1 auto; display: grid; place-items: center; overflow: hidden; background: #111; }
-.instagram-post-viewer-media > img { width: 100%; height: 100%; object-fit: contain; }
+.instagram-post-viewer-media { position: relative; min-height: 120px; flex: 1 1 auto; display: grid; place-items: center; overflow: hidden; background: #fff; }
+.instagram-post-viewer-media > img { display: block; width: 100%; height: 100%; object-fit: cover; object-position: center; }
 .instagram-post-viewer-media .instagram-carousel-count { display: block; }
 .instagram-post-viewer-details { flex: 0 0 auto; max-height: 34%; overflow: auto; padding-bottom: max(9px,env(safe-area-inset-bottom)); }
 .instagram-post-viewer-caption,.instagram-post-viewer-comment { margin: 0; padding: 5px 12px; font-size: 13px; line-height: 1.4; }
